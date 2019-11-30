@@ -1,0 +1,63 @@
+
+body {
+    font-family: Josefin Sans, sans-serif;
+    line-height: 1.8;
+    color: black;
+    display: grid;
+    grid-column-gap: 50px;
+}
+body{
+    background-image:url('InferiorBackHydatidtapeworm-size_restricted.gif');
+    background-size:cover;
+    height:100%;
+    width:100%;
+    background-attachment: fixed;
+    display: grid;
+    grid-column-gap: 50px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
+    color: #f41e1e;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+.navbar {
+    font-family: Raleway, sans-serif;
+    margin-bottom: 0;
+    background-color: #f41e1e;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: grey !important;
+    background-color: #fff !important;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+                color: #f41e1e;
+        }
+        .navbar-collapse{
+                background-color: grey;
+        }
