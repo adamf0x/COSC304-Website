@@ -1,7 +1,7 @@
 <?php
-	$username = "afox";
-	$password = "24304628";
+	$username = "<enter username here>";
+	$password = "<enter password>";
 	$database = "db_" . $username;
-	$server = "sql04.ok.ubc.ca";
+	$server = "<enter server here>";
 	$connectionInfo = array( "Database"=>$database, "UID"=>$username, "PWD"=>$password, "CharacterSet" => "UTF-8");
 ?>
